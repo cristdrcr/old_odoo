@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Account Tax Group -->
+        <record id="tax_group_IGV" model="account.tax.group">
+            <field name="name">IGV</field>
+        </record>
+        <record id="tax_group_2" model="account.tax.group">
+            <field name="name">IGV</field>
+        </record>
+        <record id="tax_group_ISC" model="account.tax.group">
+            <field name="name">ISC</field>
+        </record>        
+        <record id="tax_group_inafecto" model="account.tax.group">
+            <field name="name">Inafecto</field>
+        </record>     
+        <record id="tax_group_exonerado" model="account.tax.group">
+            <field name="name">Exonerado</field>
+        </record>                     
+        <record id="tax_group_IVAP" model="account.tax.group">
+            <field name="name">IVAP</field>
+        </record>  
+        <record id="tax_group_exportacion" model="account.tax.group">
+            <field name="name">Exportación</field>
+        </record>  
+    </data>
+</odoo>
